@@ -1,0 +1,16 @@
+.main {
+  width: 500px;
+  height: 500px;
+}
+
+.demo1 {
+  width: 80px;
+  height: 50px;
+  background: url('../images/1.png') 0 0 no-repeat;
+}
+
+.demo2 {
+  width: 50px;
+  height: 50px;
+  background: url('../images/2.png') 0 0 no-repeat;
+}

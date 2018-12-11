@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>heiheihei</title>
+  </head>
+  <body>
+    <%= require('raw-loader!@/layouts/html/header.html') %>
+    <div class="demo1"></div>
+    <div class="content">How are you ?</div>
+    <div class="content">How are you12 ?</div>
+    <div class="content">How are you14 ?</div>
+    <div class="content main">mai123456n</div>
+    <div class="demo1"></div>
+    <div class="demo2"></div>
+    <h1>hello</h1>
+    <div>
+      <img src=<%= require('@/assets/images/3.png') %> alt="" width="50"
+      height="50" />
+    </div>
+
+    <%= require('raw-loader!@/layouts/html/footer.html') %>
+  </body>
+</html>
